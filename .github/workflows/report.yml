@@ -24,10 +24,4 @@ jobs:
         with:
           name: cypress-cucumber-report
           path: todomvc-typescript-react/cypress/cucumber-report/
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v1.0.7
-        with:
-          name: github-pages
-          path: "docs/"
-      - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v2.0.0
+     
