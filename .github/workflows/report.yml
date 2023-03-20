@@ -25,4 +25,5 @@ jobs:
         with:
           # Artifact name
           name: cypress-cucumber-report
+          path: "docs/"
      
